@@ -6,18 +6,6 @@ static const unsigned int gappx     = 3;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-/*static const char *fonts[]          = { "monospace:size=10" };
-static const char dmenufont[]       = "monospace:size=10";
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
-static const char *colors[][3]      = {
-	               fg         bg         border   
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
-};*/
 static const char *fonts[]    = { "Cantarell:style=Regular:size=9:antialias=true:autohint=true", "FontAwesome:style=Regular:size=9:antialias=true:autohint=true", "Font awesome 5 Free Solid:style=Solid:size=9:antialias=true:autohint=true" };
 static char dmenufont[]       = "Cantarell:style=Regular:size=9:antialias=true:autohint=true";
 static char normbgcolor[]     = "#222222";
@@ -85,6 +73,9 @@ static const char *volinccmd[]  = { "mixer","vol","+5", NULL };
 static const char *voldeccmd[]  = { "mixer","vol","-5", NULL };
 static const char *brightupcmd[]  = { "backlight","incr","10", NULL };
 static const char *brightdowncmd[]  = { "backlight","decr","10", NULL };
+static const char *fullscrncapture[]  = { "scrot", "/home/himal/Media/screenshots/%Y-%m-%d-%T-capture.png", NULL };
+static const char *focuscapture[]  = { "scrot", "-u", "/home/himal/Media/screenshots/%Y-%m-%d-%T-capture.png", NULL };
+static const char *selectcapture[]  = { "scrot", "-s", "/home/himal/Media/screenshots/%Y-%m-%d-%T-capture.png", NULL };
 
 #include <X11/XF86keysym.h>
 
@@ -136,6 +127,9 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_x,      quit,           {0} },
+	{ MODKEY,						XK_Print,  spawn,          {.v = fullscrncapture } },
+	{ MODKEY|ShiftMask,             XK_Print,  spawn,          {.v = focuscapture } },
+	{ MODKEY|ControlMask,		    XK_Print,  spawn,          {.v = selectcapture } },
 };
 
 /* button definitions */
