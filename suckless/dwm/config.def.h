@@ -22,7 +22,8 @@ static char *colors[][3] = {
 	[SchemeUrg]  = { selfgcolor,  selbgcolor,  urgbordercolor  },
 };
 
-/* tagging */
+
+/* tagging   */
 static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
 
 static const Rule rules[] = {
