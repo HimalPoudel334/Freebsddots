@@ -2,7 +2,7 @@
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
-static const unsigned int gappx     = 3;        /* gaps between windows */
+static const unsigned int gappx     = 2;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
@@ -15,13 +15,12 @@ static char selfgcolor[]      = "#eeeeee";
 static char selbordercolor[]  = "#ff0000";
 static char selbgcolor[]      = "#005577";
 static char urgbordercolor[]  = "#ff0000";
-static char *colors[][3] = {
+static const char *colors[][3] = {
 	/*               fg           bg           border   */
 	[SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
 	[SchemeSel]  = { selfgcolor,  selbgcolor,  selbordercolor  },
 	[SchemeUrg]  = { selfgcolor,  selbgcolor,  urgbordercolor  },
 };
-
 
 /* tagging   */
 static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
