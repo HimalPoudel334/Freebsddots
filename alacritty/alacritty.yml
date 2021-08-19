@@ -77,7 +77,7 @@ colors:
     white:   '0xffffff'
 
 cursor:
-  #style: block
+  style: Block
   blinking: off
   blink-interval: 750
   unfocused_hollow: true
