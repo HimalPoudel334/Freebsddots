@@ -12,7 +12,7 @@ static char normbgcolor[]     = "#222222";
 static char normbordercolor[] = "#444444";
 static char normfgcolor[]     = "#bbbbbb";
 static char selfgcolor[]      = "#eeeeee";
-static char selbordercolor[]  = "#ff0000";
+static char selbordercolor[]  = "#fff000"; //"#ff0000"
 static char selbgcolor[]      = "#806000";//"#005577";
 static char urgbordercolor[]  = "#ff0000";
 static const char *colors[][3] = {
@@ -30,9 +30,10 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 3,       0,           -1 },
+	/* class      		instance    	title       			tags mask    isfloating   monitor */
+	{ "Gimp",     		NULL,       	NULL,       			0,            1,           -1 },
+	{ "Yad",      		"yad",      	"YAD",       			0,            1,           -1 },
+	{ "Firefox",  		"Navigator",	"Mozilla Firefox",  	1 << 3,       0,           -1 },
 };
 
 /* layout(s) */
@@ -73,24 +74,31 @@ static const char *volinccmd[]  = { "mixer","vol","+5", NULL };
 static const char *voldeccmd[]  = { "mixer","vol","-5", NULL };
 static const char *brightupcmd[]  = { "backlight","incr","10", NULL };
 static const char *brightdowncmd[]  = { "backlight","decr","10", NULL };
-static const char *fullscrncapture[]  = { "scrot", "/home/himal/Media/screenshots/%Y-%m-%d-%T-capture.png", NULL };
-static const char *focuscapture[]  = { "scrot", "-u", "/home/himal/Media/screenshots/%Y-%m-%d-%T-capture.png", NULL };
-static const char *selectcapture[]  = { "scrot", "-s", "/home/himal/Media/screenshots/%Y-%m-%d-%T-capture.png", NULL };
+static const char *fullscrncapture[]  = { "scrot", "${HOME}/Media/screenshots/%Y-%m-%d-%T-capture.png", NULL };
+static const char *focuscapture[]  = { "scrot", "-u", "${HOME}/Media/screenshots/%Y-%m-%d-%T-capture.png", NULL };
+static const char *selectcapture[]  = { "scrot", "-s", "${HOME}/Media/screenshots/%Y-%m-%d-%T-capture.png", NULL };
+static const char *showkeybindings[]  = { "/home/himal/.config/suckless/dwm/keybindings.sh", NULL };
 
 #include <X11/XF86keysym.h>
 
 static Key keys[] = {
+//EMyKeyBindings
 	/* modifier                     key        function        argument */
+	//Group SpawnPrograms
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = dmenucmd } },
-	{ MODKEY,		        XK_w,	   spawn,          {.v = browsercmd } },
-	{ MODKEY,		        XK_e, 	   spawn,          {.v = filemgrcmd } },
+	{ MODKEY,		        		XK_w,	   spawn,          {.v = browsercmd } },
+	{ MODKEY,		        		XK_e, 	   spawn,          {.v = filemgrcmd } },
+	{ MODKEY,		        		XK_s, 	   spawn,          {.v = showkeybindings } },
 	{ MODKEY|ShiftMask,             XK_e,	   spawn,          {.v = guieditorcmd } },
+	//Group VolumeAndBrightness
 	{ 0,			        XF86XK_AudioLowerVolume,	   spawn,          {.v = voldeccmd } },
 	{ 0,			        XF86XK_AudioRaiseVolume,	   spawn,          {.v = volinccmd } },
 	{ 0,			        XK_F11,	   spawn,          {.v = brightdowncmd } },
 	{ 0,			        XK_F12,	   spawn,          {.v = brightupcmd } },
+	//Group ToggleBar
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
+	//Group StackRotationAndSizeManipulation
 	{ MODKEY|ShiftMask,             XK_j,      rotatestack,    {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_k,      rotatestack,    {.i = -1 } },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
@@ -99,9 +107,12 @@ static Key keys[] = {
 	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
+	//Group ZoomAndView
 	{ MODKEY|Mod1Mask,              XK_Return, zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
+	//Gropu KillWindow
 	{ MODKEY,		        XK_q,      killclient,     {0} },
+	//Group ChangeLayout
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
@@ -110,15 +121,19 @@ static Key keys[] = {
 	{ MODKEY|ControlMask,		XK_comma,  cyclelayout,    {.i = -1 } },
 	{ MODKEY|ControlMask,           XK_period, cyclelayout,    {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
+	//Group ViewWindowsOnTags
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
+	//Group MonitorAndTags
 	{ MODKEY,                       XK_comma,  focusmon,       {.i = -1 } },
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
+	//Group GapsManipulation
 	{ MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
 	{ MODKEY,                       XK_equal,  setgaps,        {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },
+	//Group TagKeys
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
@@ -128,11 +143,14 @@ static Key keys[] = {
 	TAGKEYS(                        XK_7,                      6)
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
+	//Group Restart Dwm
 	{ MODKEY|ShiftMask,             XK_x,      quit,           {0} },
+	//Group Screenshot
 	{ MODKEY,						XK_Print,  spawn,          {.v = fullscrncapture } },
 	{ MODKEY|ShiftMask,             XK_Print,  spawn,          {.v = focuscapture } },
 	{ MODKEY|ControlMask,		    XK_Print,  spawn,          {.v = selectcapture } },
 };
+//EndBindings
 
 /* button definitions */
 /* click can be ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle, ClkClientWin, or ClkRootWin */
