@@ -1,0 +1,416 @@
+ORBit2		High-performance CORBA ORB with support for the C language
+adwaita-icon-theme		GNOME Symbolic Icons
+alacritty		GPU-accelerated terminal emulator
+aom		AV1 reference encoder/decoder
+appres		Program to list application's resources
+argp-standalone		Standalone version of arguments parsing functions from GLIBC
+argyllcms		ICC compatible color management system
+at-spi2-atk		Assisted Technology Provider module for GTK+
+at-spi2-core		Assistive Technology Service Provider Interface
+atk		GNOME accessibility toolkit (ATK)
+atkmm		C++ wrapper for ATK API library
+avahi-app		Service discovery on a local network
+awesome		Highly configurable, next generation framework window manager
+bash		GNU Project's Bourne Again SHell
+bitmap		Bitmap editor and converter utilities for X
+ca_root_nss		Root certificate bundle from the Mozilla Project
+cairo		Vector graphics library with cross-device output support
+cairomm		C++ interface to cairo
+celt		The CELT ultra-low delay audio codec
+colord		Manage color profiles to accurately color input/output devices
+consolekit2		Framework for defining and tracking users
+cscope		Interactive C source code browser
+ctags		Feature-filled tagfile generator for vi and emacs clones
+cups		Common UNIX Printing System
+curl		Command line tool and library for transferring data with URLs
+cvsps		Create patchset information from CVS
+dav1d		Small and fast AV1 decoder
+db5		Oracle Berkeley DB, revision 5.3
+dbus		Message bus system for inter-application communication
+dbus-glib		GLib bindings for the D-BUS messaging system
+dconf		Configuration database system for GNOME
+dejavu		Bitstream Vera Fonts clone with a wider range of characters
+desktop-file-utils		Couple of command line utilities for working with desktop entries
+dmenu		X11 menu application designed for the dwm window manager
+double-conversion		Binary-decimal and decimal-binary routines for IEEE doubles
+drm-fbsd13-kmod		DRM modules for the linuxkpi-based KMS components
+drm-kmod		Metaport of DRM modules for the linuxkpi-based KMS components
+e2fsprogs-libuuid		UUID library from e2fsprogs package
+encodings		X.Org Encoding fonts
+evdev-proto		Input event device header files
+expat		XML 1.0 parser written in C
+fdk-aac		Port of the Fraunhofer FDK AAC Codec Library
+ffmpeg		Realtime audio/video encoder/converter and streaming server
+fftw3		Fast C routines to compute the Discrete Fourier Transform
+fftw3-float		Fast Discrete Fourier Transform (Single Precision C Routines)
+firefox		Web browser based on the browser portion of Mozilla
+flac		Free lossless audio codec
+font-adobe-100dpi		X.Org Adobe 100dpi font
+font-adobe-75dpi		X.Org Adobe 75dpi font
+font-adobe-utopia-100dpi		X.Org Adobe Utopia 100dpi font
+font-adobe-utopia-75dpi		X.Org Adobe Utopia 75dpi font
+font-adobe-utopia-type1		X.Org Adobe Utopia Type1 font
+font-alias		X.Org Font aliases
+font-arabic-misc		X.Org miscellaneous Arabic fonts
+font-awesome		Suite of pictographic icons from Font Awesome (free version)
+font-bh-100dpi		X.Org Bigelow Holmes 100dpi font
+font-bh-75dpi		X.Org Bigelow Holmes 75dpi font
+font-bh-lucidatypewriter-100dpi		X.Org Bigelow Holmes Lucida TypeWriter 100dpi font
+font-bh-lucidatypewriter-75dpi		X.Org Bigelow Holmes Lucida TypeWriter 75dpi font
+font-bh-ttf		X.Org Bigelow & Holmes TTF font
+font-bh-type1		X.Org Bigelow Holmes Type1 font
+font-bitstream-100dpi		X.Org Bitstream Vera 100dpi font
+font-bitstream-75dpi		X.Org Bitstream Vera 75dpi font
+font-bitstream-type1		X.Org Bitstream Vera Type1 font
+font-cronyx-cyrillic		X.Org Cronyx Cyrillic font
+font-cursor-misc		X.Org miscellaneous Cursor fonts
+font-daewoo-misc		X.Org miscellaneous Daewoo fonts
+font-dec-misc		X.Org miscellaneous Dec fonts
+font-ibm-type1		X.Org IBM Type1 font
+font-isas-misc		X.Org miscellaneous ISAS fonts
+font-jis-misc		X.Org miscellaneous JIS fonts
+font-micro-misc		X.Org miscellaneous Micro fonts
+font-misc-cyrillic		X.Org miscellaneous Cyrillic font
+font-misc-ethiopic		X.Org miscellaneous Ethiopic font
+font-misc-meltho		X.Org miscellaneous Meltho font
+font-misc-misc		X.Org miscellaneous Misc fonts
+font-mutt-misc		X.Org miscellaneous Mutt fonts
+font-schumacher-misc		X.Org miscellaneous Schumacher fonts
+font-screen-cyrillic		X.Org Screen Cyrillic font
+font-sony-misc		X.Org miscellaneous Sony fonts
+font-sun-misc		X.Org miscellaneous Sun fonts
+font-winitzki-cyrillic		X.Org Winitzki Cyrillic font
+font-xfree86-type1		X.Org XFree86 Type1 font
+fontconfig		XML-based font configuration API for X Windows
+freeglut		Open source implementation of GLUT library
+freetype2		Free and portable TrueType font rendering engine
+fribidi		Free Implementation of the Unicode Bidirectional Algorithm
+fusefs-libs		FUSE allows filesystem implementation in userspace
+fusefs-ntfs		Mount NTFS partitions (read/write) and disk images
+gconf2		Configuration database system for GNOME
+gdbm		GNU database manager
+gdk-pixbuf2		Graphic library for GTK+
+gettext-runtime		GNU gettext runtime libraries and programs
+giblib		Utility library that includes a wrapper for imlib2
+giflib		Tools and library routines for working with GIF images
+girara		GTK3 Interface Library for Zathura PDF Viewer
+git		Distributed source code management tool
+glib		Some useful routines of C programming (current stable version)
+glibmm		C++ interfaces for glib2
+gmp		Free library for arbitrary precision arithmetic
+gnome-icon-theme		Collection of icons for the GNOME desktop
+gnome-icon-theme-symbolic		GNOME Symbolic Icons
+gnome_subr		Common startup and shutdown subroutines used by GNOME scripts
+gnutls		GNU Transport Layer Security library
+gobject-introspection		Generate interface introspection data for GObject libraries
+gpu-firmware-kmod		Firmware modules for the linuxkpi-based KMS components
+graphite2		Rendering capabilities for complex non-Roman writing systems
+gsettings-desktop-schemas		Collection of globally shared GSetting schemas
+gsynaptics		GNOME Synaptics Touchpad setting tool
+gtk-arc-themes		Arc-themes for GTK-2.0 and GTK-3.0 based desktop environments
+gtk-murrine-engine		Murrine GTK+ 2.x cairo based engine
+gtk-update-icon-cache		Gtk-update-icon-cache utility from the Gtk+ toolkit
+gtk2		Gimp Toolkit for X11 GUI (previous stable version)
+gtk3		Gimp Toolkit for X11 GUI (current stable version)
+gtkmm24		C++ wrapper for Gtk+
+gtksourceview3		Text widget that adds syntax highlighting to the GtkTextView widget
+harfbuzz		OpenType text shaping engine
+hicolor-icon-theme		High-color icon theme shell from the FreeDesktop project
+htop		Better top(1) - interactive process viewer
+iceauth		ICE authority file utility for X
+icu		International Components for Unicode (from IBM)
+imlib2		The next generation graphics library for Enlightenment
+indexinfo		Utility to regenerate the GNU info page index
+jackit		Low latency audio server
+jansson		C library for encoding, decoding, and manipulating JSON data
+jasper		Implementation of the codec specified in the JPEG-2000 standard
+jbigkit		Lossless compression for bi-level images such as scanned pages, faxes
+jpeg-turbo		SIMD-accelerated JPEG codec which replaces libjpeg
+lame		Fast MP3 encoder kit
+lcms		Light Color Management System -- a color management library
+lcms2		Accurate, fast, and small-footprint color management engine
+libFS		The FS library
+libGLU		OpenGL utility library
+libICE		Inter Client Exchange library for X11
+libIDL		Library for creating trees of CORBA IDL files
+libSM		Session Management library for X11
+libX11		X11 library
+libXScrnSaver		The XScrnSaver library
+libXau		Authentication Protocol library for X11
+libXaw		X Athena Widgets library
+libXcomposite		X Composite extension library
+libXcursor		X client-side cursor loading library
+libXdamage		X Damage extension library
+libXdmcp		X Display Manager Control Protocol library
+libXext		X11 Extension library
+libXfixes		X Fixes extension library
+libXfont		X font library
+libXfont2		X font library
+libXft		Client-sided font API for X applications
+libXi		X Input extension library
+libXinerama		X11 Xinerama library
+libXmu		X Miscellaneous Utilities libraries
+libXpm		X Pixmap library
+libXrandr		X Resize and Rotate extension library
+libXrender		X Render extension library
+libXres		X Resource usage library
+libXt		X Toolkit library
+libXtst		X Test extension
+libXv		X Video Extension library
+libXvMC		X Video Extension Motion Compensation library
+libXxf86dga		X DGA Extension
+libXxf86vm		X Vidmode Extension
+libass		Portable ASS/SSA subtitle renderer
+libcddb		Library to access data on a CDDB server
+libconfig		Simple library for manipulating structured configuration files
+libdaemon		Lightweight C library that eases the writing of UNIX daemons
+libdmx		DMX extension library
+libdrm		Userspace interface to kernel Direct Rendering Module services
+libdvbpsi		Library for MPEG TS and DVB PSI tables decoding and generation
+libdvdnav		Videolan version of the libdvdnav project
+libdvdread		Videolan version of the libdvdread project
+libebml		EBML (Extensible Binary Meta Language), sort of binary version of XML
+libedit		Command line editor library
+libepoll-shim		Small epoll implementation using kqueue
+libepoxy		Library to handle OpenGL function pointer management
+libev		Full-featured and high-performance event loop library
+libevdev		Linux Event Device library
+libevent		API for executing callback functions on events or timeouts
+libexif		Library to read digital camera file meta-data
+libffi		Foreign Function Interface
+libfm		Core library of PCManFM file manager
+libfm-extra		LibFM-Extra library
+libfontenc		The fontenc Library
+libgcrypt		General purpose cryptographic library based on the code from GnuPG
+libglade2		GNOME glade library
+libgpg-error		Common error values for all GnuPG components
+libgsf		Extensible I/O abstraction for dealing with structured file formats
+libgudev		GObject bindings for libudev
+libiconv		Character set conversion library
+libid3tag		ID3 tags library (part of MAD project)
+libidn		Internationalized Domain Names command line tool
+libidn2		Implementation of IDNA2008 internationalized domain names
+libinput		Generic input library
+libltdl		System independent dlopen wrapper
+liblz4		LZ4 compression library, lossless and very fast
+libmatroska		Extensible Multimedia Container Format
+libmng		Multiple-image Network Graphics (MNG) reference library
+libmtdev		Multitouch Protocol Translation Library
+libnghttp2		HTTP/2.0 C Library
+libnotify		Library for desktop notifications
+libogg		Ogg bitstream library
+libpaper		Library providing routines for paper size management
+libpci		PCI configuration space I/O made easy
+libpciaccess		Generic PCI access library
+libpthread-stubs		Weak aliases for pthread functions
+librsvg2-rust		Library for parsing and rendering SVG vector-graphic files
+libsamplerate		Secret Rabbit Code: a Sample Rate Converter for audio
+libsigc++		Callback Framework for C++
+libsndfile		Reading and writing files containing sampled sound (like WAV or AIFF)
+libsoxr		High quality, one-dimensional sample-rate conversion library
+libsysinfo		GNU libc's sysinfo port for FreeBSD
+libtasn1		ASN.1 structure parser library
+libtheora		Theora video codec for the Ogg multimedia streaming system
+libublio		User space caching library
+libudev-devd		libudev-compatible interface for devd
+libunistring		Unicode string library
+libunwind		Generic stack unwinding library
+libv4l		Video4Linux library
+libva		VAAPI wrapper and dummy driver
+libvdpau		VDPAU wrapper and tracing library
+libvorbis		Audio compression codec library
+libvpx		VP8/VP9 reference encoder/decoder
+libwacom		Adds tablet support to libinput
+libx264		H.264/MPEG-4 AVC Video Encoding (Library)
+libxcb		The X protocol C-language Binding (XCB) library
+libxdg-basedir		Implementation of the XDG Base Directory specification
+libxfce4util		Extension library for the Xfce desktop environment
+libxkbcommon		Keymap handling library for toolkits and window systems
+libxkbfile		XKB file library
+libxml++		XML API for C++
+libxml2		XML parser library for GNOME
+libxshmfence		Shared memory 'SyncFence' synchronization primitive
+libxslt		The XSLT C library for GNOME
+libyaml		YAML 1.1 parser and emitter written in C
+liveMedia		LIVE.COM Streaming Media
+llvm10		LLVM and Clang
+lua52		Small, compilable scripting language providing easy access to C code
+lua52-lgi		Lua bindings to libraries using GObject-Introspection
+luajit		Just-In-Time Compiler for Lua
+lxappearance		Desktop-independent theme switcher for GTK+
+mbedtls		SSL/TLS and cryptography library
+menu-cache		Library used to read freedesktop.org menus
+mesa-dri		OpenGL hardware acceleration drivers for DRI2+
+mesa-libs		OpenGL libraries that support GLX and EGL clients
+mkfontscale		Creates an index of scalable font files for X
+mousepad		Simple text editor for the Xfce Desktop
+neofetch		Fast, highly customizable system info script
+nettle		Low-level cryptographic library
+nitrogen		Background browser and setter for X windows
+nordic-theme		Dark GTK & KDE theme created using the Nord color palette
+nspr		Platform-neutral API for system level and libc like functions
+nss		Libraries to support development of security-enabled applications
+obs-studio		Open source streaming/recording software
+openjpeg		Open-source JPEG 2000 codec
+opus		IETF audio codec
+orc		Library and toolset to operate arrays of data
+p11-kit		Library for loading and enumerating of PKCS#11 modules
+p5-Authen-SASL		Perl5 module for SASL authentication
+p5-CGI		Handle Common Gateway Interface requests and responses
+p5-Clone		Recursively copy Perl datatypes
+p5-Digest-HMAC		Perl5 interface to HMAC Message-Digest Algorithms
+p5-Encode-Locale		Determine the locale encoding
+p5-Error		Error/exception handling in object-oriented programming style
+p5-GSSAPI		Perl extension providing access to the GSSAPIv2 library
+p5-HTML-Parser		Perl5 module for parsing HTML documents
+p5-HTML-Tagset		Some useful data table in parsing HTML
+p5-HTTP-Date		Conversion routines for the HTTP protocol date formats
+p5-HTTP-Message		Representation of HTTP style messages
+p5-IO-HTML		Open an HTML file with automatic charset detection
+p5-IO-Socket-INET6		Perl module with object interface to AF_INET6 domain sockets
+p5-IO-Socket-SSL		Perl5 interface to SSL sockets
+p5-LWP-MediaTypes		Guess media type for a file or a URL
+p5-Mozilla-CA		Perl extension for Mozilla CA cert bundle in PEM format
+p5-Net-SSLeay		Perl5 interface to SSL
+p5-Socket6		IPv6 related part of the C socket.h defines and structure manipulators
+p5-TimeDate		Perl5 module containing a better/faster date parser for absolute dates
+p5-URI		Perl5 interface to Uniform Resource Identifier (URI) references
+pango		Open-source framework for the layout and rendering of i18n text
+pangomm		C++ wrapper for Pango
+pciids		Database of all known IDs used in PCI devices
+pcmanfm		PCMan File Manager
+pcre		Perl Compatible Regular Expressions library
+pcre2		Perl Compatible Regular Expressions library, version 2
+perl5		Practical Extraction and Report Language
+picom		Lightweight X11 compositor
+pixman		Low-level pixel manipulation library
+pkg		Package manager
+png		Library for manipulating PNG images
+polkit		Framework for controlling access to system-wide components
+poppler		PDF rendering library
+poppler-data		Poppler encoding data
+poppler-glib		GLib bindings to poppler
+pulseaudio		Sound server for UNIX
+py37-evdev		Bindings to the Linux input handling subsystem
+py37-pyudev		Pure Python libudev binding
+py37-setuptools		Python packages installer
+py37-six		Python 2 and 3 compatibility utilities
+python37		Interpreted object-oriented programming language
+qt5-core		Qt core non-graphical module
+qt5-dbus		Qt D-Bus inter-process communication module
+qt5-gui		Qt graphical user interface module
+qt5-imageformats		Qt plugins for additional image formats
+qt5-network		Qt network module
+qt5-svg		Qt SVG support module
+qt5-widgets		Qt C++ widgets module
+qt5-x11extras		Qt platform-specific features for X11-based systems
+qt5-xml		Qt SAX and DOM implementations
+qtchooser		Qt tool wrapper
+readline		Library for editing command lines as they are typed
+ruby		Object-oriented interpreted scripting language
+scrot		SCReenshOT - command line screen capture utility
+sessreg		Manage utmp/wtmp entries for non-init X clients
+setxkbmap		Set the keyboard using the X Keyboard Extension
+shared-mime-info		MIME types database from the freedesktop.org project
+smproxy		Session Manager Proxy
+sndio		Small audio and MIDI framework from the OpenBSD project
+speex		Audio compression format designed for speech
+speexdsp		Audio compression format designed for speech
+spidermonkey78		Standalone JavaScript based from Mozilla 78-esr
+sqlite3		SQL database engine in a C library
+startup-notification		Library that supports startup notification spec from freedesktop.org
+sudo		Allow others to run commands as root
+taglib		Library for manipulating ID3 tags and Ogg comments
+tex-kpathsea		Path searching library for TeX
+tex-synctex		Synchronization TeXnology parser library
+tiff		Tools and library routines for working with TIFF images
+tmux		Terminal Multiplexer
+tpm-emulator		Trusted Platform Module (TPM) emulator
+trousers		Open-source TCG Software Stack
+twm		Tab Window Manager for the X Window System
+twolame		MPEG Audio Layer 2 encoder
+vim		Improved version of the vi editor
+vlc		Qt based multimedia player and streaming server
+volumeicon		Lightweight volume control for the systray
+vulkan-headers		Headers for the Vulkan graphics API
+wayland		Wayland composite "server"
+wayland-protocols		Wayland protocols
+webp		Google WebP image format conversion tool
+webrtc-audio-processing0		AudioProcessing module from WebRTC project (legacy version)
+x11perf		X11 server performance test program
+x265		H.265/High Efficiency Video Coding (HEVC) format
+xauth		X authority file utility
+xbacklight		Program to adjust backlight brightness
+xbitmaps		X.Org bitmaps data
+xcalc		Scientific calculator for X
+xcb-util		Module with libxcb/libX11 extension/replacement libraries
+xcb-util-cursor		XCB cursor library
+xcb-util-image		Port of Xlib's XImage and XShmImage functions
+xcb-util-keysyms		Standard X key constants and conversion to/from keycodes
+xcb-util-renderutil		Convenience functions for the Render extension
+xcb-util-wm		Framework for window manager implementation
+xcb-util-xrm		XCB utility functions for the X resource manager
+xclock		Analog and digital clock for X
+xcmsdb		Device Color Characterization utility for X
+xconsole		Monitor system console messages with X
+xcursor-themes		X.org cursors themes
+xcursorgen		Create an X cursor file from a collection of PNG images
+xdg-utils		Tools to allow all applications to integrate with the free desktop
+xdpyinfo		Display information utility for X
+xdriinfo		Query configuration information of DRI drivers
+xev		Print contents of X events
+xf86-input-keyboard		X.Org keyboard input driver
+xf86-input-libinput		X.Org libinput input driver
+xf86-input-mouse		X.Org mouse input driver
+xf86-input-synaptics		X.Org synaptics input driver
+xf86-video-intel		X.Org legacy driver for Intel integrated graphics chipsets
+xf86-video-scfb		X.Org syscons display driver
+xf86-video-vesa		X.Org vesa display driver
+xf86dga		Test program for the XFree86-DGA extension
+xfce4-conf		D-Bus-based configuration storage system
+xgamma		Gamma correction through the X server
+xgc		X graphics demo
+xhost		Server access control program for X
+xinit		X Window System initializer
+xinput		Very useful utility for configuring and testing XInput devices
+xkbcomp		Compile XKB keyboard description
+xkbevd		XKB event daemon
+xkbutils		XKB utility demos
+xkeyboard-config		X Keyboard Configuration Database
+xkill		Utility for killing a client by its X resource
+xlsatoms		List interned atoms defined on a server
+xlsclients		List client applications running on a display
+xmessage		Display message or query in a X window
+xmlcatmgr		SGML and XML catalog manager
+xmodmap		Utility for modifying keymaps and pointer button mappings in X
+xorg		X.Org complete distribution metaport
+xorg-apps		X.org apps meta-port
+xorg-docs		X.org documentation files
+xorg-drivers		X.org drivers meta-port
+xorg-fonts		X.org fonts meta-port
+xorg-fonts-100dpi		X.Org 100dpi bitmap fonts
+xorg-fonts-75dpi		X.Org 75dpi bitmap fonts
+xorg-fonts-cyrillic		X.Org Cyrillic bitmap fonts
+xorg-fonts-miscbitmaps		X.Org miscellaneous bitmap fonts
+xorg-fonts-truetype		X.Org TrueType fonts
+xorg-fonts-type1		X.Org Type1 fonts
+xorg-libraries		X.org libraries meta-port
+xorg-server		X.Org X server and related programs
+xorgproto		X Window System unified protocol definitions
+xpr		Utility for printing an X window dump
+xprop		Property displayer for X
+xrandr		Primitive command line interface to the RandR extension
+xrdb		X server resource database utility
+xrefresh		Refresh all or part of an X screen
+xset		User preference utility for X
+xsetroot		Root window parameter setting utility for X
+xterm		Terminal emulator for the X Window System
+xtrans		Abstract network code for X
+xvid		Opensource MPEG-4 codec, based on OpenDivx
+xvinfo		Print out X-Video extension adaptor information
+xwd		Dump an image of an X window
+xwininfo		Window information utility for X
+xwud		Image displayer for X
+zathura		Customizable lightweight pdf viewer
+zathura-pdf-poppler		Poppler render PDF plugin for Zathura PDF viewer
+zstd		Fast real-time compression algorithm
